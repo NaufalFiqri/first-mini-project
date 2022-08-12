@@ -68,12 +68,20 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+}
+
+#about,
+#discord,
+#contact,
+footer{
+    padding: 48px 0;
 }
 
 /*ABOUT SECTION*/
 
 #about{
-    padding: 48px 0 48px 0;
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -94,4 +102,75 @@ h2{
 
 img{
     width: 100%;
+}
+
+.section__description--wrapper{
+    width: 60%;
+}
+
+.about__img--wrapper,
+    .section__description--wrapper{
+        padding: 0 24px;
+    }
+
+.section__description--paragraph{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*
+DISCORD
+*/
+
+#discord{
+    background-color: #cefcff;
+}
+
+/*
+CONTACT
+*/
+
+#contact{
+    background-color: #dce9ff;
+}
+
+form{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/*
+FOOTER
+*/
+
+footer{
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer_logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer_links{
+    margin-bottom: 32px;
+}
+
+.footer_link{
+    padding: 0 16px;
+
 }
